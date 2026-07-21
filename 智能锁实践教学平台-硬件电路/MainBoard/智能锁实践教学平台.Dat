@@ -1,0 +1,60 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~智能锁实践教学平台.PrjPcb|ReportField=ProjectFullPath~D:\prj\2019\intelligent_lock\硬件\电路\V8\MainBoard\智能锁实践教学平台.PrjPcb|ReportField=Title~Bill of Materials For Project [智能锁实践教学平台.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~219|ReportField=ReportTime~8:52:14|ReportField=ReportDate~2021/10/20|ReportField=ReportDateTime~2021/10/20 8:52:14|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~|ReportField=Organization~|ReportField=ProjectName~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~智能锁实践教学平台.PrjPcb|ReportField=DataSourceFullPath~D:\prj\2019\intelligent_lock\硬件\电路\V8\MainBoard\智能锁实践教学平台.PrjPcb
+12pF|贴片电容，0603|C1, C3|0603_C|Cap|2
+1uF|贴片电容，0603|C2, C19, C20, C21, C22, C29, C61, C62, C65, C66, C67, C68, C75|0603_C|Cap|13
+0.1uF|贴片电容，0603|C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C17, C18, C23, C26, C28, C30, C31, C36, C37, C38, C39, C42, C43, C46, C47, C50, C51, C52, C53, C54, C55, C56, C57, C58, C69, C70, C71, C72, C76, C78, C79, C80, C81|0603_C|Cap|45
+470uF|贴片电容，1206|C16, C77|CAP-SMD_BD10.0-L10.3-W10.3-FD|CAPACITOR|2
+4.7uF|贴片电容，0603|C24, C27, C63, C73|0603_C|Cap|4
+2.2uF|贴片电容，0603|C25, C64, C74|0603_C|Cap|3
+10uF|贴片电容，1206|C32, C33, C34, C35, C40, C41, C44, C45, C48, C49|1206_C|CAPACITOR|10
+18pF|贴片电容，0603|C59, C60|0603_C|Cap|2
+红色LED|1206封装，红色LED|D1|LED_1206|LED|1
+绿色LED|1206封装，绿色LED|D2|LED_1206|LED|1
+LED|贴片LED，0603，白色|D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17|0603_LED_S1|LED|15
+SMAJ33CA-TP|TVS|D18|SMA_L4.4-W2.6-LS5.0-BI|SMAJ33CA-TP|1
+USB接口|USB-B10-BRW|J1|USB_D|USB|1
+10uH|MLZ1608E100MT000，贴片电感，0603|L1|0603_L|L|1
+QG-2864KSWEG01|128x64 单色白色，QG-2864KSWEG01|OLED1, OLED2|OLED-SMD_QG-2864KSWEG01-flod|QG-2864KSWEG01|2
+Header 3X2|Header, 3-Pin, Dual row|P1|HDR2X3|Header 3X2|1
+Header 5X2|2.54mm 2*5P 直 简牛|P2|2.54-2*5P简牛|Header 5X2|1
+Header 4|不焊|P3|HDR1X4|Header 4|1
+Header 2|不焊|P4, P7|HDR1X2|Header 2|2
+AFC12-S06DCC-00|1.25MM 6P 卧式贴片插座连接器|P5, P6|CONN-SMD_6PIN_AFC12-S06DCC-00_PITCH1.25-L|Header 6|2
+Header 7|Header, 7-Pin|P8|HDR1X7|Header 7|1
+Header 2|WJ126V-5.0-2P，不焊|P9, P10|CONN-TH_WJ126V-5.0-2P|Header 2|2
+Header 5|Header, 5-Pin|P11, P12|HDR1X5|Header 5|2
+Header 12X2|Header, 12-Pin, Dual row|P13, P14, P15, P16|2.0mm 2*12P直排母|Header 12X2|4
+KO3415|KO3415,SOT23-3|Q1, Q2, Q3, Q4|SOT-23(SOT-23-3)|3415|4
+SS8050_C545535|S8050,SOT-23|Q5, Q6|SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR|SS8050_C545535|2
+10K|贴片电阻，0603|R1, R2, R13, R14, R25, R42, R44, R47, R48, R53, R54, R56, R57|0603_R|Res2|13
+1K|贴片电阻，0603|R3, R4, R17, R18, R19, R20|0603_R|Res2|6
+4.7K|贴片电阻，0603|R5, R6, R9, R15, R16, R21, R22, R24, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R45, R46, R49, R50|0603_R|Res2|24
+1.5K|贴片电阻，0603|R7|0603_R|Res2|1
+300R|贴片电阻，0603|R8, R11|0603_R|Res2|2
+27R|贴片电阻，0603|R10, R12|0603_R|Res2|2
+910K|贴片电阻，0603|R23, R52|0603_R|Res2|2
+680R  1%|贴片电阻，0603|R38|0603_R|Res2|1
+1M|贴片电阻，0603|R39|0603_R|Res2|1
+470K|贴片电阻，0603|R40|0603_R|Res2|1
+1R|贴片电阻，0603|R41|0603_R|Res2|1
+0R|贴片电阻，0603|R43, R51, R55|0603_R|Res2|3
+switch|贴片按键，6*6*5|S1, S2, S3, S4, S5, S6|SW-SMD_4P-L6.2-W6.2-P4.50-LS9.0|switch|6
+自锁开关|8.5*8.5*H22.35自锁按键开关|sw1, sw2|SW-TH_6P-L8.5-W8.5-P2.50-LS5.4-BL|switch_lock|2
+STM8L052R8T6|STM8L052R8T6,LQFP-64_10x10x05P|U1, U2|LQFP-64_10X10X05P|STM8L052R8T6|2
+REF3033|3.0V标准电压输出，SOT-23|U3|SOT-23(SOT-23-3)|REF3033AIDBZR|1
+ESP32|ESP32|U4|WIFIM-SMD_ESP32-S32MB|ESP32|1
+CH340B|CH340B,SOP-16_150mil|U5|SOP-16_L10.0-W3.9-P1.27-LS6.0-BL|CH340C|1
+YH-SP1635-01|1635腔体喇叭，不焊|U6|YH-SP1635-01|speaker|1
+NVC080C|语音芯片，SOP-8|U7|SOP-8_150mil|NVCXXXC|1
+F1020|不焊|U9|F1020|F1020|1
+BiovoV9|不焊|U10|BiovoV9|BiovoV9|1
+PL2303SA|USB转TTL芯片，PL2303SA，SOP-8_150mil|U12|SOP-8_150mil|PL2303SA|1
+GT20L16S1Y|字库芯片， SOT-23-6|U13, U29|SOT-23-6|GT20L16S1Y|2
+motor|顶呱呱工厂 MH-JS030LK140|U14|MH-JS030LK140|motor|1
+MX608E|MX608E电机驱动，SOP8|U15|SOP-8_150mil|MX608E|1
+662K|线性稳压器662k,SOT23-3|U16, U28|SOT-23(SOT-23-3)|662K|2
+LM1117|LM1117|U17, U18, U19, U20, U21|SOT-223|LM1117|5
+AU6268|AU6268,SSOP28封装|U23|SSOP-28_208mil|AU6268|1
+CD4066BM|双向 FET 开关,CD4066BM,SOIC-14|U24, U25, U26, U27|SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL|CD4066B|4
+USBPORT_0|USB - A 插座 ,直角,292303-1|USB-HOST1|USB-A-TH_USB-DIP-04F-S1-B1-Y2|USBPORT_0|1
+32.768KHz|OSC,32.768KHz,+/-25ppm,3.3V,15pF,MC146,-20℃~70℃|Y1|CRY_MC146|CRYSTAL_1|1
+12MHz|贴片晶振，49SMD|Y2|LC-HC-49SMD|XTAL|1
