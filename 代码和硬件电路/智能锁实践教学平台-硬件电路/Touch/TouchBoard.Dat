@@ -1,0 +1,13 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~TouchBoard.PrjPcb|ReportField=ProjectFullPath~D:\prj\2019\intelligent_lock\µçÂ·\V4\Touch\TouchBoard.PrjPcb|ReportField=Title~Bill of Materials For Project [TouchBoard.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~32|ReportField=ReportTime~18:16:42|ReportField=ReportDate~2021/4/23|ReportField=ReportDateTime~2021/4/23 18:16:42|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~|ReportField=Organization~|ReportField=ProjectName~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~TouchBoard.PrjPcb|ReportField=DataSourceFullPath~D:\prj\2019\intelligent_lock\µçÂ·\V4\Touch\TouchBoard.PrjPcb
+touchPad||#, [NoValue], 0, 1, 2, 3, 4, 5, 6, 7, 8, 9|TOUCH_PAD|touchPad|12
+820pF|ÌùÆ¬µçÈÝ£¬0603|C1|0603_C|Cap|1
+0.1uF|ÌùÆ¬µçÈÝ£¬0603|C2, C5, C6|0603_C|Cap|3
+10uF|ÌùÆ¬µçÈÝ£¬1206|C3, C4|1206_C|CAPACITOR|2
+Header 12X2|Header, 12-Pin, Dual row, 2.0mm|P1, P2|12x2_2.0mm|Header 12X2|2
+2M|ÌùÆ¬µç×è£¬0603|R1, R7|0603_R|Res2|2
+10K|ÌùÆ¬µç×è£¬0603|R2, R3, R4, R5, R8|0603_R|Res2|5
+510K|ÌùÆ¬µç×è£¬0603|R6|0603_R|Res2|1
+330K|ÌùÆ¬µç×è£¬0603|R9|0603_R|Res2|1
+20K|ÌùÆ¬µç×è£¬0603|R10|0603_R|Res2|1
+TSM12|´¥ÃþÐ¾Æ¬£¬TSM12M£¬MLF-32·â×°|U1|MLF-32|ADSTSM12|1
+LM1117|LM1117|U2|SOT-223|LM1117|1
