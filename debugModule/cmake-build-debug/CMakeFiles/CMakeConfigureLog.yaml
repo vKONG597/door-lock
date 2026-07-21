@@ -1,0 +1,2071 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/mingw32-make.exe.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/cc.com"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/cc.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/cc"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/"
+    found: "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/12633/Desktop/门禁系统/debugModule/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/ar.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/ranlib.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/strip.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/ld.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/nm.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/objdump.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/objcopy.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/readelf.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/dlltool.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/addr2line.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/tapi.com"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/tapi.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/tapi.com"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/tapi.exe"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/tapi"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/tapi.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/tapi.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/tapi"
+      - "C:/Program Files/Azure Data Studio/bin/tapi.com"
+      - "C:/Program Files/Azure Data Studio/bin/tapi.exe"
+      - "C:/Program Files/Azure Data Studio/bin/tapi"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/tapi.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/tapi.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/tapi"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/tapi.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/tapi.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/tapi"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/tapi.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/tapi.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/tapi"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/tapi.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/tapi.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/tapi"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi"
+      - "C:/node.js/tapi.com"
+      - "C:/node.js/tapi.exe"
+      - "C:/node.js/tapi"
+      - "C:/ProgramData/chocolatey/bin/tapi.com"
+      - "C:/ProgramData/chocolatey/bin/tapi.exe"
+      - "C:/ProgramData/chocolatey/bin/tapi"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/tapi.com"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/tapi.exe"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/tapi"
+      - "E:/tool/mysql/bin/tapi.com"
+      - "E:/tool/mysql/bin/tapi.exe"
+      - "E:/tool/mysql/bin/tapi"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/12633/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/12633/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/12633/AppData/Roaming/npm/tapi"
+      - "D:/CLion/CLion 2026.1.4/bin/tapi.com"
+      - "D:/CLion/CLion 2026.1.4/bin/tapi.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/tapi"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/tapi.com"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/tapi.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-13.1"
+      - "gcc-ar-13"
+      - "gcc-ar13"
+      - "gcc-ar"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ar-13.1.com"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ar-13.1.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ar-13.1"
+      - "C:/Windows/System32/gcc-ar-13.1.com"
+      - "C:/Windows/System32/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/gcc-ar-13.1"
+      - "C:/Windows/gcc-ar-13.1.com"
+      - "C:/Windows/gcc-ar-13.1.exe"
+      - "C:/Windows/gcc-ar-13.1"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13.1"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ar-13.1.com"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ar-13.1.exe"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ar-13.1"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ar-13.1.com"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ar-13.1.exe"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ar-13.1"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ar-13.1.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ar-13.1.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ar-13.1"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar-13.1.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar-13.1.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar-13.1"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ar-13.1.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ar-13.1.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ar-13.1"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.1.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.1.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.1"
+      - "C:/node.js/gcc-ar-13.1.com"
+      - "C:/node.js/gcc-ar-13.1.exe"
+      - "C:/node.js/gcc-ar-13.1"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-13.1.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-13.1.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-13.1"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ar-13.1.com"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ar-13.1.exe"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ar-13.1"
+      - "E:/tool/mysql/bin/gcc-ar-13.1.com"
+      - "E:/tool/mysql/bin/gcc-ar-13.1.exe"
+      - "E:/tool/mysql/bin/gcc-ar-13.1"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.com"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.exe"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ar-13.1.com"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ar-13.1.exe"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ar-13.1"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ar-13.1.com"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ar-13.1.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ar-13.1"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ar-13.1.com"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ar-13.1.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ar-13.1"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ar-13.com"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ar-13.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ar-13"
+      - "C:/Windows/System32/gcc-ar-13.com"
+      - "C:/Windows/System32/gcc-ar-13.exe"
+      - "C:/Windows/System32/gcc-ar-13"
+      - "C:/Windows/gcc-ar-13.com"
+      - "C:/Windows/gcc-ar-13.exe"
+      - "C:/Windows/gcc-ar-13"
+      - "C:/Windows/System32/wbem/gcc-ar-13.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13"
+      - "C:/Program Files/dotnet/gcc-ar-13.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ar-13.com"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ar-13.exe"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ar-13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ar-13"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ar-13.com"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ar-13.exe"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ar-13"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ar-13"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ar-13.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ar-13.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ar-13"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar-13.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar-13.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar-13"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ar-13.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ar-13.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ar-13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13"
+      - "C:/node.js/gcc-ar-13.com"
+      - "C:/node.js/gcc-ar-13.exe"
+      - "C:/node.js/gcc-ar-13"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-13.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-13.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-13"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ar-13.com"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ar-13.exe"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ar-13"
+      - "E:/tool/mysql/bin/gcc-ar-13.com"
+      - "E:/tool/mysql/bin/gcc-ar-13.exe"
+      - "E:/tool/mysql/bin/gcc-ar-13"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ar-13.com"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ar-13.exe"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ar-13"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ar-13.com"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ar-13.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ar-13"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ar-13.com"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ar-13.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ar-13"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ar13.com"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ar13.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ar13"
+      - "C:/Windows/System32/gcc-ar13.com"
+      - "C:/Windows/System32/gcc-ar13.exe"
+      - "C:/Windows/System32/gcc-ar13"
+      - "C:/Windows/gcc-ar13.com"
+      - "C:/Windows/gcc-ar13.exe"
+      - "C:/Windows/gcc-ar13"
+      - "C:/Windows/System32/wbem/gcc-ar13.com"
+      - "C:/Windows/System32/wbem/gcc-ar13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13"
+      - "C:/Program Files/dotnet/gcc-ar13.com"
+      - "C:/Program Files/dotnet/gcc-ar13.exe"
+      - "C:/Program Files/dotnet/gcc-ar13"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ar13.com"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ar13.exe"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ar13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ar13.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ar13"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ar13.com"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ar13.exe"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ar13"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ar13.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ar13"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ar13.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ar13.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ar13"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar13.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar13.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar13"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ar13.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ar13.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ar13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar13"
+      - "C:/node.js/gcc-ar13.com"
+      - "C:/node.js/gcc-ar13.exe"
+      - "C:/node.js/gcc-ar13"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar13.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar13.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar13"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ar13.com"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ar13.exe"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ar13"
+      - "E:/tool/mysql/bin/gcc-ar13.com"
+      - "E:/tool/mysql/bin/gcc-ar13.exe"
+      - "E:/tool/mysql/bin/gcc-ar13"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ar13.com"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ar13.exe"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ar13"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ar13.com"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ar13.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ar13"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ar13.com"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ar13.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ar13"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ar.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-13.1"
+      - "gcc-ranlib-13"
+      - "gcc-ranlib13"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ranlib-13.1.com"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ranlib-13.1.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ranlib-13.1"
+      - "C:/Windows/System32/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/gcc-ranlib-13.1"
+      - "C:/Windows/gcc-ranlib-13.1.com"
+      - "C:/Windows/gcc-ranlib-13.1.exe"
+      - "C:/Windows/gcc-ranlib-13.1"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ranlib-13.1.com"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ranlib-13.1.exe"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib-13.1"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib-13.1"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib-13.1"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib-13.1"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib-13.1"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.1.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.1"
+      - "C:/node.js/gcc-ranlib-13.1.com"
+      - "C:/node.js/gcc-ranlib-13.1.exe"
+      - "C:/node.js/gcc-ranlib-13.1"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-13.1.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-13.1.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-13.1"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ranlib-13.1.com"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ranlib-13.1.exe"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ranlib-13.1"
+      - "E:/tool/mysql/bin/gcc-ranlib-13.1.com"
+      - "E:/tool/mysql/bin/gcc-ranlib-13.1.exe"
+      - "E:/tool/mysql/bin/gcc-ranlib-13.1"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.com"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.exe"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ranlib-13.1.com"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ranlib-13.1.exe"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ranlib-13.1"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ranlib-13.1.com"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ranlib-13.1.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ranlib-13.1"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ranlib-13.1.com"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ranlib-13.1.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ranlib-13.1"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ranlib-13.com"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ranlib-13.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ranlib-13"
+      - "C:/Windows/System32/gcc-ranlib-13.com"
+      - "C:/Windows/System32/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/gcc-ranlib-13"
+      - "C:/Windows/gcc-ranlib-13.com"
+      - "C:/Windows/gcc-ranlib-13.exe"
+      - "C:/Windows/gcc-ranlib-13"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ranlib-13.com"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ranlib-13.exe"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib-13"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ranlib-13.com"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib-13"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib-13.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib-13.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib-13"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib-13.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib-13.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib-13"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib-13.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib-13.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib-13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13"
+      - "C:/node.js/gcc-ranlib-13.com"
+      - "C:/node.js/gcc-ranlib-13.exe"
+      - "C:/node.js/gcc-ranlib-13"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-13.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-13.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-13"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ranlib-13.com"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ranlib-13.exe"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ranlib-13"
+      - "E:/tool/mysql/bin/gcc-ranlib-13.com"
+      - "E:/tool/mysql/bin/gcc-ranlib-13.exe"
+      - "E:/tool/mysql/bin/gcc-ranlib-13"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ranlib-13.com"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ranlib-13.exe"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ranlib-13"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ranlib-13.com"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ranlib-13.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ranlib-13"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ranlib-13.com"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ranlib-13.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ranlib-13"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ranlib13.com"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ranlib13.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ranlib13"
+      - "C:/Windows/System32/gcc-ranlib13.com"
+      - "C:/Windows/System32/gcc-ranlib13.exe"
+      - "C:/Windows/System32/gcc-ranlib13"
+      - "C:/Windows/gcc-ranlib13.com"
+      - "C:/Windows/gcc-ranlib13.exe"
+      - "C:/Windows/gcc-ranlib13"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13"
+      - "C:/Program Files/dotnet/gcc-ranlib13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib13"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ranlib13.com"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ranlib13.exe"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/gcc-ranlib13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib13"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ranlib13.com"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ranlib13.exe"
+      - "C:/Program Files/Azure Data Studio/bin/gcc-ranlib13"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib13"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib13.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib13.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/gcc-ranlib13"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib13.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib13.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib13"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib13.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib13.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/gcc-ranlib13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib13"
+      - "C:/node.js/gcc-ranlib13.com"
+      - "C:/node.js/gcc-ranlib13.exe"
+      - "C:/node.js/gcc-ranlib13"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib13.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib13.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib13"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ranlib13.com"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ranlib13.exe"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/gcc-ranlib13"
+      - "E:/tool/mysql/bin/gcc-ranlib13.com"
+      - "E:/tool/mysql/bin/gcc-ranlib13.exe"
+      - "E:/tool/mysql/bin/gcc-ranlib13"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ranlib13.com"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ranlib13.exe"
+      - "C:/Users/12633/AppData/Roaming/npm/gcc-ranlib13"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ranlib13.com"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ranlib13.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/gcc-ranlib13"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ranlib13.com"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ranlib13.exe"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/gcc-ranlib13"
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ranlib.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Web\u5e94\u7528\u5f00\u53d1/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/node.js/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/\u524d\u7aef\u5f00\u53d1\u6280\u672f/jdk/jdk-17.0.2/bin/"
+      - "E:/tool/mysql/bin/"
+      - "C:/Users/12633/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/12633/AppData/Roaming/npm/"
+      - "D:/CLion/CLion 2026.1.4/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/ninja/win/x64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/bin/"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/sbin/"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/"
+      - "C:/Program Files (x86)/code/bin/"
+      - "C:/Program Files (x86)/code/sbin/"
+      - "C:/Program Files (x86)/code/"
+    searched_directories:
+      - "D:/CLion/CLion 2026.1.4/bin/mingw/bin/windres.com"
+    found: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Web\u5e94\u7528\u5f00\u53d1\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\node.js\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\\u524d\u7aef\u5f00\u53d1\u6280\u672f\\jdk\\jdk-17.0.2\\bin"
+        - "E:\\tool\\mysql\\bin"
+        - "C:\\Users\\12633\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\12633\\AppData\\Roaming\\npm"
+        - "D:\\CLion\\CLion 2026.1.4\\bin"
+        - "D:\\CLion\\CLion 2026.1.4\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/code"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64"
+        - "C:/Program Files (x86)/code"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/12633/Desktop/\u95e8\u7981\u7cfb\u7edf/debugModule/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ypenci"
+      binary: "C:/Users/12633/Desktop/\u95e8\u7981\u7cfb\u7edf/debugModule/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ypenci"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/12633/Desktop/门禁系统/debugModule/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ypenci'
+        
+        Run Build Command(s): "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "D:/CLion/CLion 2026.1.4/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_e13d7/fast
+        D:/CLion/CLion 2026.1.4/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e13d7.dir\\build.make CMakeFiles/cmTC_e13d7.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/12633/Desktop/门禁系统/debugModule/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ypenci'
+        Building C object CMakeFiles/cmTC_e13d7.dir/CMakeCCompilerABI.c.obj
+        "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin\\gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_e13d7.dir\\CMakeCCompilerABI.c.obj -c "D:\\CLion\\CLion 2026.1.4\\bin\\cmake\\win\\x64\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e13d7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e13d7.dir\\'
+         D:/CLion/CLion 2026.1.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\CLion\\CLion 2026.1.4\\bin\\cmake\\win\\x64\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_e13d7.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\12633\\AppData\\Local\\Temp\\cci0s2qe.s
+        GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/CLion/CLion 2026.1.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "D:/CLion/CLion 2026.1.4/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "D:/CLion/CLion 2026.1.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "D:/CLion/CLion 2026.1.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e13d7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e13d7.dir\\'
+         as -v -o CMakeFiles\\cmTC_e13d7.dir\\CMakeCCompilerABI.c.obj C:\\Users\\12633\\AppData\\Local\\Temp\\cci0s2qe.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=D:/CLion/CLion 2026.1.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/CLion/CLion 2026.1.4/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/;D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e13d7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e13d7.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_e13d7.exe
+        "D:\\CLion\\CLion 2026.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e13d7.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=D:/CLion/CLion\\ 2026.1.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=D:/CLion/CLion 2026.1.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/CLion/CLion 2026.1.4/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/;D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e13d7.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e13d7.'
+         D:/CLion/CLion 2026.1.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_e13d7.exe D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_e13d7.dir/objects.a --no-whole-archive --out-implib libcmTC_e13d7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        collect2 version 13.1.0
+        D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_e13d7.exe D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_e13d7.dir/objects.a --no-whole-archive --out-implib libcmTC_e13d7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.40
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e13d7.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e13d7.'
+        "D:\\CLion\\CLion 2026.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e13d7.dir/objects.a
+        "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin\\ar.exe" qc CMakeFiles\\cmTC_e13d7.dir/objects.a @CMakeFiles\\cmTC_e13d7.dir\\objects1.rsp
+        "D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin\\gcc.exe"  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_e13d7.dir/objects.a -Wl,--no-whole-archive -o cmTC_e13d7.exe -Wl,--out-implib,libcmTC_e13d7.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/12633/Desktop/门禁系统/debugModule/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ypenci'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [D:/CLion/CLion 2026.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [D:/CLion/CLion 2026.1.4/bin/mingw/include]
+        collapse include dir [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [D:/CLion/CLion 2026.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [D:/CLion/CLion 2026.1.4/bin/mingw/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/CLion/CLion 2026.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;D:/CLion/CLion 2026.1.4/bin/mingw/include;D:/CLion/CLion 2026.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;D:/CLion/CLion 2026.1.4/bin/mingw/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/12633/Desktop/门禁系统/debugModule/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ypenci']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "D:/CLion/CLion 2026.1.4/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_e13d7/fast]
+        ignore line: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e13d7.dir\\build.make CMakeFiles/cmTC_e13d7.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/12633/Desktop/门禁系统/debugModule/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ypenci']
+        ignore line: [Building C object CMakeFiles/cmTC_e13d7.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin\\gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_e13d7.dir\\CMakeCCompilerABI.c.obj -c "D:\\CLion\\CLion 2026.1.4\\bin\\cmake\\win\\x64\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e13d7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e13d7.dir\\']
+        ignore line: [ D:/CLion/CLion 2026.1.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\CLion\\CLion 2026.1.4\\bin\\cmake\\win\\x64\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_e13d7.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\12633\\AppData\\Local\\Temp\\cci0s2qe.s]
+        ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/CLion/CLion 2026.1.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "D:/CLion/CLion 2026.1.4/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "D:/CLion/CLion 2026.1.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/CLion/CLion 2026.1.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e13d7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e13d7.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_e13d7.dir\\CMakeCCompilerABI.c.obj C:\\Users\\12633\\AppData\\Local\\Temp\\cci0s2qe.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=D:/CLion/CLion 2026.1.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/]
+        ignore line: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e13d7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e13d7.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_e13d7.exe]
+        ignore line: ["D:\\CLion\\CLion 2026.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e13d7.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/CLion/CLion\\ 2026.1.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=D:/CLion/CLion 2026.1.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/]
+        ignore line: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e13d7.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e13d7.']
+        ignore line: [ D:/CLion/CLion 2026.1.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_e13d7.exe D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_e13d7.dir/objects.a --no-whole-archive --out-implib libcmTC_e13d7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [collect2 version 13.1.0]
+        ignore line: [D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_e13d7.exe D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_e13d7.dir/objects.a --no-whole-archive --out-implib libcmTC_e13d7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/CLion/CLion 2026.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [GNU ld (GNU Binutils) 2.40]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e13d7.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e13d7.']
+        ignore line: ["D:\\CLion\\CLion 2026.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e13d7.dir/objects.a]
+        ignore line: ["D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin\\ar.exe" qc CMakeFiles\\cmTC_e13d7.dir/objects.a @CMakeFiles\\cmTC_e13d7.dir\\objects1.rsp]
+        ignore line: ["D:\\CLion\\CLion 2026.1.4\\bin\\mingw\\bin\\gcc.exe"  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_e13d7.dir/objects.a -Wl --no-whole-archive -o cmTC_e13d7.exe -Wl --out-implib libcmTC_e13d7.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/12633/Desktop/门禁系统/debugModule/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ypenci']
+        ignore line: []
+        ignore line: []
+        linker tool for 'C': D:/CLion/CLion 2026.1.4/bin/mingw/bin/ld.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/CLion/CLion 2026.1.4/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/CLion/CLion 2026.1.4/bin/mingw/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.40
+...

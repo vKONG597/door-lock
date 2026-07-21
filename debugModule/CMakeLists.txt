@@ -1,0 +1,401 @@
+cmake_minimum_required(VERSION 3.15)
+project(code C)
+
+set(CMAKE_C_STANDARD 11)
+
+include_directories(Libraries/STM8L15x_StdPeriph_Driver/inc)
+include_directories(Project/STM8L15x_StdPeriph_Examples/ADC/ADC_AnalogWatchdog)
+include_directories(Project/STM8L15x_StdPeriph_Examples/ADC/ADC_DMA)
+include_directories(Project/STM8L15x_StdPeriph_Examples/ADC/ADC_IDD_measurement)
+include_directories(Project/STM8L15x_StdPeriph_Examples/ADC/ADC_IT)
+include_directories(Project/STM8L15x_StdPeriph_Examples/AES/AES_EncryptDecrypt)
+include_directories(Project/STM8L15x_StdPeriph_Examples/AES/AES_KeyDerivation)
+include_directories(Project/STM8L15x_StdPeriph_Examples/AES/AES_MultipleBlockEncryptDecrypt)
+include_directories(Project/STM8L15x_StdPeriph_Examples/CLK/CLK_SYSCLKSwitch)
+include_directories(Project/STM8L15x_StdPeriph_Examples/COMP/COMP1_Halt)
+include_directories(Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_AnalogVoltageMonitoring)
+include_directories(Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_FrequencyMeasurement)
+include_directories(Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_PWMSignalControl)
+include_directories(Project/STM8L15x_StdPeriph_Examples/COMP/COMP_AnalogWatchdog)
+include_directories(Project/STM8L15x_StdPeriph_Examples/DAC/DAC_NoiseTriangleGenerator)
+include_directories(Project/STM8L15x_StdPeriph_Examples/DAC/DAC_SignalsGeneration)
+include_directories(Project/STM8L15x_StdPeriph_Examples/DMA/DMA_ADCtoTIM)
+include_directories(Project/STM8L15x_StdPeriph_Examples/DMA/DMA_ChannelsPriority)
+include_directories(Project/STM8L15x_StdPeriph_Examples/DMA/DMA_USARTtoRAM)
+include_directories(Project/STM8L15x_StdPeriph_Examples/DMA/DMA_WFE)
+include_directories(Project/STM8L15x_StdPeriph_Examples/DMA/DMA_WFI)
+include_directories(Project/STM8L15x_StdPeriph_Examples/EXTI/EXTI_IOControl)
+include_directories(Project/STM8L15x_StdPeriph_Examples/FLASH/Data_Program)
+include_directories(Project/STM8L15x_StdPeriph_Examples/GPIO/GPIO_Toggle)
+include_directories(Project/STM8L15x_StdPeriph_Examples/I2C/I2C_EEPROM)
+include_directories(Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TSENSOR)
+include_directories(Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_DataExchange/Master)
+include_directories(Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_DataExchange/Slave)
+include_directories(Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_JoystickPlay/Master)
+include_directories(Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_JoystickPlay/Slave)
+include_directories(Project/STM8L15x_StdPeriph_Examples/ITC/ITC_SoftwarePriority)
+include_directories(Project/STM8L15x_StdPeriph_Examples/IWDG/IWDG_Example)
+include_directories(Project/STM8L15x_StdPeriph_Examples/LCD/LCD_SegmentsDrive)
+include_directories(Project/STM8L15x_StdPeriph_Examples/PWR/PWR_PVD_Halt)
+include_directories(Project/STM8L15x_StdPeriph_Examples/PWR/PWR_WFI)
+include_directories(Project/STM8L15x_StdPeriph_Examples/RTC/RTC_Calendar)
+include_directories(Project/STM8L15x_StdPeriph_Examples/RTC/RTC_ChronoSubSecond)
+include_directories(Project/STM8L15x_StdPeriph_Examples/RTC/RTC_PeriodicWakeup500ms)
+include_directories(Project/STM8L15x_StdPeriph_Examples/RTC/RTC_Tamper1Detection)
+include_directories(Project/STM8L15x_StdPeriph_Examples/SPI/SPI_FLASH)
+include_directories(Project/STM8L15x_StdPeriph_Examples/SPI/SPI_MSD)
+include_directories(Project/STM8L15x_StdPeriph_Examples/SPI/SPI_SlaveDMA)
+include_directories(Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_6Steps)
+include_directories(Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_ComplementarySignals)
+include_directories(Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_DMA)
+include_directories(Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_DMABurstMode)
+include_directories(Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_PWMInput)
+include_directories(Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_PWMOutput)
+include_directories(Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_Synchro)
+include_directories(Project/STM8L15x_StdPeriph_Examples/TIM2/TIM2_TRIGLSE)
+include_directories(Project/STM8L15x_StdPeriph_Examples/TIM4/TIM4_TimeBase)
+include_directories(Project/STM8L15x_StdPeriph_Examples/USART/USART_HyperTerminal_DMA)
+include_directories(Project/STM8L15x_StdPeriph_Examples/USART/USART_HyperTerminal_Interrupts)
+include_directories(Project/STM8L15x_StdPeriph_Examples/USART/USART_IrDA)
+include_directories(Project/STM8L15x_StdPeriph_Examples/USART/USART_MultiProcessor)
+include_directories(Project/STM8L15x_StdPeriph_Examples/USART/USART_Printf)
+include_directories(Project/STM8L15x_StdPeriph_Examples/WWDG/WWDG_Example)
+include_directories(Source/User)
+include_directories(Utilities/Misc)
+include_directories(Utilities/STM8_EVAL)
+include_directories(Utilities/STM8_EVAL/Common)
+include_directories(Utilities/STM8_EVAL/STM8L1526_EVAL)
+include_directories(Utilities/STM8_EVAL/STM8L1528_EVAL)
+
+add_executable(code
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_adc.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_aes.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_beep.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_clk.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_comp.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_dac.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_dma.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_exti.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_flash.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_gpio.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_i2c.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_irtim.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_itc.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_iwdg.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_lcd.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_pwr.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_rst.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_rtc.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_spi.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_syscfg.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_tim1.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_tim2.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_tim3.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_tim4.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_tim5.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_usart.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_wfe.h
+        Libraries/STM8L15x_StdPeriph_Driver/inc/stm8l15x_wwdg.h
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_adc.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_aes.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_beep.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_clk.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_comp.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_dac.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_dma.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_exti.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_flash.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_gpio.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_i2c.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_irtim.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_itc.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_iwdg.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_lcd.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_pwr.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_rst.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_rtc.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_spi.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_syscfg.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_tim1.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_tim2.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_tim3.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_tim4.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_tim5.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_usart.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_wfe.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/stm8l15x_wwdg.c
+        Libraries/STM8L15x_StdPeriph_Driver/src/test1.c
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_AnalogWatchdog/main.c
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_AnalogWatchdog/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_AnalogWatchdog/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_AnalogWatchdog/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_DMA/main.c
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_DMA/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_DMA/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_DMA/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_IDD_measurement/main.c
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_IDD_measurement/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_IDD_measurement/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_IDD_measurement/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_IT/main.c
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_IT/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_IT/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/ADC/ADC_IT/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/AES/AES_EncryptDecrypt/main.c
+        Project/STM8L15x_StdPeriph_Examples/AES/AES_EncryptDecrypt/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/AES/AES_EncryptDecrypt/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/AES/AES_EncryptDecrypt/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/AES/AES_KeyDerivation/main.c
+        Project/STM8L15x_StdPeriph_Examples/AES/AES_KeyDerivation/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/AES/AES_KeyDerivation/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/AES/AES_KeyDerivation/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/AES/AES_MultipleBlockEncryptDecrypt/main.c
+        Project/STM8L15x_StdPeriph_Examples/AES/AES_MultipleBlockEncryptDecrypt/main.h
+        Project/STM8L15x_StdPeriph_Examples/AES/AES_MultipleBlockEncryptDecrypt/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/AES/AES_MultipleBlockEncryptDecrypt/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/AES/AES_MultipleBlockEncryptDecrypt/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/CLK/CLK_SYSCLKSwitch/main.c
+        Project/STM8L15x_StdPeriph_Examples/CLK/CLK_SYSCLKSwitch/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/CLK/CLK_SYSCLKSwitch/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/CLK/CLK_SYSCLKSwitch/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP1_Halt/main.c
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP1_Halt/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP1_Halt/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP1_Halt/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_AnalogVoltageMonitoring/main.c
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_AnalogVoltageMonitoring/main.h
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_AnalogVoltageMonitoring/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_AnalogVoltageMonitoring/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_AnalogVoltageMonitoring/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_FrequencyMeasurement/main.c
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_FrequencyMeasurement/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_FrequencyMeasurement/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_FrequencyMeasurement/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_PWMSignalControl/main.c
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_PWMSignalControl/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_PWMSignalControl/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP2_PWMSignalControl/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP_AnalogWatchdog/main.c
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP_AnalogWatchdog/main.h
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP_AnalogWatchdog/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP_AnalogWatchdog/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/COMP/COMP_AnalogWatchdog/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/DAC/DAC_NoiseTriangleGenerator/main.c
+        Project/STM8L15x_StdPeriph_Examples/DAC/DAC_NoiseTriangleGenerator/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/DAC/DAC_NoiseTriangleGenerator/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/DAC/DAC_NoiseTriangleGenerator/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/DAC/DAC_SignalsGeneration/main.c
+        Project/STM8L15x_StdPeriph_Examples/DAC/DAC_SignalsGeneration/main.h
+        Project/STM8L15x_StdPeriph_Examples/DAC/DAC_SignalsGeneration/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/DAC/DAC_SignalsGeneration/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/DAC/DAC_SignalsGeneration/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_ADCtoTIM/main.c
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_ADCtoTIM/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_ADCtoTIM/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_ADCtoTIM/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_ChannelsPriority/main.c
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_ChannelsPriority/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_ChannelsPriority/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_ChannelsPriority/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_USARTtoRAM/main.c
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_USARTtoRAM/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_USARTtoRAM/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_USARTtoRAM/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_WFE/main.c
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_WFE/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_WFE/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_WFE/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_WFI/main.c
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_WFI/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_WFI/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/DMA/DMA_WFI/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/EXTI/EXTI_IOControl/main.c
+        Project/STM8L15x_StdPeriph_Examples/EXTI/EXTI_IOControl/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/EXTI/EXTI_IOControl/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/EXTI/EXTI_IOControl/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/FLASH/Data_Program/main.c
+        Project/STM8L15x_StdPeriph_Examples/FLASH/Data_Program/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/FLASH/Data_Program/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/FLASH/Data_Program/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/GPIO/GPIO_Toggle/main.c
+        Project/STM8L15x_StdPeriph_Examples/GPIO/GPIO_Toggle/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/GPIO/GPIO_Toggle/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/GPIO/GPIO_Toggle/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_EEPROM/main.c
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_EEPROM/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_EEPROM/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_EEPROM/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TSENSOR/main.c
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TSENSOR/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TSENSOR/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TSENSOR/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_DataExchange/Master/main.c
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_DataExchange/Master/main.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_DataExchange/Master/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_DataExchange/Master/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_DataExchange/Master/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_DataExchange/Slave/main.c
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_DataExchange/Slave/main.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_DataExchange/Slave/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_DataExchange/Slave/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_DataExchange/Slave/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_JoystickPlay/Master/main.c
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_JoystickPlay/Master/main.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_JoystickPlay/Master/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_JoystickPlay/Master/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_JoystickPlay/Master/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_JoystickPlay/Slave/main.c
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_JoystickPlay/Slave/main.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_JoystickPlay/Slave/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_JoystickPlay/Slave/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/I2C/I2C_TwoBoards/I2C_JoystickPlay/Slave/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/ITC/ITC_SoftwarePriority/main.c
+        Project/STM8L15x_StdPeriph_Examples/ITC/ITC_SoftwarePriority/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/ITC/ITC_SoftwarePriority/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/ITC/ITC_SoftwarePriority/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/IWDG/IWDG_Example/main.c
+        Project/STM8L15x_StdPeriph_Examples/IWDG/IWDG_Example/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/IWDG/IWDG_Example/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/IWDG/IWDG_Example/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/LCD/LCD_SegmentsDrive/main.c
+        Project/STM8L15x_StdPeriph_Examples/LCD/LCD_SegmentsDrive/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/LCD/LCD_SegmentsDrive/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/LCD/LCD_SegmentsDrive/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/PWR/PWR_PVD_Halt/main.c
+        Project/STM8L15x_StdPeriph_Examples/PWR/PWR_PVD_Halt/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/PWR/PWR_PVD_Halt/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/PWR/PWR_PVD_Halt/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/PWR/PWR_WFI/main.c
+        Project/STM8L15x_StdPeriph_Examples/PWR/PWR_WFI/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/PWR/PWR_WFI/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/PWR/PWR_WFI/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_Calendar/main.c
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_Calendar/main.h
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_Calendar/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_Calendar/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_Calendar/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_ChronoSubSecond/main.c
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_ChronoSubSecond/main.h
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_ChronoSubSecond/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_ChronoSubSecond/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_ChronoSubSecond/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_PeriodicWakeup500ms/main.c
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_PeriodicWakeup500ms/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_PeriodicWakeup500ms/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_PeriodicWakeup500ms/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_Tamper1Detection/main.c
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_Tamper1Detection/main.h
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_Tamper1Detection/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_Tamper1Detection/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/RTC/RTC_Tamper1Detection/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/SPI/SPI_FLASH/main.c
+        Project/STM8L15x_StdPeriph_Examples/SPI/SPI_FLASH/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/SPI/SPI_FLASH/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/SPI/SPI_FLASH/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/SPI/SPI_MSD/main.c
+        Project/STM8L15x_StdPeriph_Examples/SPI/SPI_MSD/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/SPI/SPI_MSD/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/SPI/SPI_MSD/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/SPI/SPI_SlaveDMA/main.c
+        Project/STM8L15x_StdPeriph_Examples/SPI/SPI_SlaveDMA/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/SPI/SPI_SlaveDMA/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/SPI/SPI_SlaveDMA/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_6Steps/main.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_6Steps/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_6Steps/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_6Steps/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_ComplementarySignals/main.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_ComplementarySignals/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_ComplementarySignals/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_ComplementarySignals/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_DMA/main.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_DMA/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_DMA/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_DMA/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_DMABurstMode/main.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_DMABurstMode/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_DMABurstMode/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_DMABurstMode/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_PWMInput/main.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_PWMInput/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_PWMInput/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_PWMInput/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_PWMOutput/main.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_PWMOutput/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_PWMOutput/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_PWMOutput/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_Synchro/main.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_Synchro/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_Synchro/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/TIM1/TIM1_Synchro/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/TIM2/TIM2_TRIGLSE/main.c
+        Project/STM8L15x_StdPeriph_Examples/TIM2/TIM2_TRIGLSE/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/TIM2/TIM2_TRIGLSE/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/TIM2/TIM2_TRIGLSE/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/TIM4/TIM4_TimeBase/main.c
+        Project/STM8L15x_StdPeriph_Examples/TIM4/TIM4_TimeBase/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/TIM4/TIM4_TimeBase/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/TIM4/TIM4_TimeBase/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_HyperTerminal_DMA/main.c
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_HyperTerminal_DMA/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_HyperTerminal_DMA/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_HyperTerminal_DMA/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_HyperTerminal_Interrupts/main.c
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_HyperTerminal_Interrupts/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_HyperTerminal_Interrupts/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_HyperTerminal_Interrupts/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_IrDA/main.c
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_IrDA/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_IrDA/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_IrDA/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_MultiProcessor/main.c
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_MultiProcessor/main.h
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_MultiProcessor/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_MultiProcessor/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_MultiProcessor/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_Printf/main.c
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_Printf/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_Printf/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/USART/USART_Printf/stm8l15x_it.h
+        Project/STM8L15x_StdPeriph_Examples/WWDG/WWDG_Example/main.c
+        Project/STM8L15x_StdPeriph_Examples/WWDG/WWDG_Example/stm8l15x_conf.h
+        Project/STM8L15x_StdPeriph_Examples/WWDG/WWDG_Example/stm8l15x_it.c
+        Project/STM8L15x_StdPeriph_Examples/WWDG/WWDG_Example/stm8l15x_it.h
+        Source/User/gpio.c
+        Source/User/gpio.h
+        Source/User/main.c
+        Source/User/stm8l15x_conf.h
+        Source/User/stm8l15x_it.c
+        Source/User/stm8l15x_it.h
+        Utilities/Misc/timing_delay.c
+        Utilities/Misc/timing_delay.h
+        Utilities/STM8_EVAL/Common/stm8_eval_i2c_ee.c
+        Utilities/STM8_EVAL/Common/stm8_eval_i2c_ee.h
+        Utilities/STM8_EVAL/Common/stm8_eval_i2c_tsensor.c
+        Utilities/STM8_EVAL/Common/stm8_eval_i2c_tsensor.h
+        Utilities/STM8_EVAL/Common/stm8_eval_lcd.c
+        Utilities/STM8_EVAL/Common/stm8_eval_lcd.h
+        Utilities/STM8_EVAL/Common/stm8_eval_spi_flash.c
+        Utilities/STM8_EVAL/Common/stm8_eval_spi_flash.h
+        Utilities/STM8_EVAL/Common/stm8_eval_spi_sd.c
+        Utilities/STM8_EVAL/Common/stm8_eval_spi_sd.h
+        Utilities/STM8_EVAL/STM8L1526_EVAL/stm8l1526_eval.c
+        Utilities/STM8_EVAL/STM8L1526_EVAL/stm8l1526_eval.h
+        Utilities/STM8_EVAL/STM8L1526_EVAL/stm8l1526_eval_glass_lcd.c
+        Utilities/STM8_EVAL/STM8L1526_EVAL/stm8l1526_eval_glass_lcd.h
+        Utilities/STM8_EVAL/STM8L1528_EVAL/stm8l1528_eval.c
+        Utilities/STM8_EVAL/STM8L1528_EVAL/stm8l1528_eval.h
+        Utilities/STM8_EVAL/STM8L1528_EVAL/stm8l1528_eval_glass_lcd.c
+        Utilities/STM8_EVAL/STM8L1528_EVAL/stm8l1528_eval_glass_lcd.h
+        Utilities/STM8_EVAL/stm8_eval.c
+        Utilities/STM8_EVAL/stm8_eval.h
+        Source/User/gpio.c
+        Source/User/gpio.h
+        Source/User/timer4.c
+        Source/User/timer4.h
+        Source/User/usart.c
+        Source/User/usart.h
+        Source/User/rtc.c
+        Source/User/rtc.h
+)
